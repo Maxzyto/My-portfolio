@@ -24,5 +24,6 @@ after:h-[3px] after:bg-yellow-400  text-white after:w-full after:scale-x-0 after
 
  .custom-scrollbar-thumb{
   background: #c277fa
+  border-radius: 4px;
  }
 }

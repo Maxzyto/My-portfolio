@@ -13,4 +13,16 @@ after:h-[3px] after:bg-yellow-400  text-white after:w-full after:scale-x-0 after
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
  }
+ .custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+ }
+
+ .custom-scrollbar:: webkit-scrollbar-track {
+  background: #44028f;
+ }
+
+ .custom-scrollbar-thumb{
+  background: #c277fa
+ }
 }

@@ -1,8 +1,12 @@
+import LocalHome from '@/components/Home/LocalHome'
 import React from 'react'
+
 
 const Home = () => {
   return (
-    <div className='text-5xl'>Home</div>
+    <div  >
+     <LocalHome/>
+    </div>
   )
 }
 
